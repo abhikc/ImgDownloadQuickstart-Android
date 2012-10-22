@@ -1,23 +1,8 @@
-# Getting Started with [kinvey](http://www.kinvey.com)
+# ImgDownloadQuickstart-Android
 
-Kinvey strives to make your mobile development experience easier by providing you all of the standard
-backend functionality you need, so you can focus on the frontend and the stuff your users care about.
+This example helps demonstrate downloading a list of blobs from Kinvey.
 
-* Use this project to get started using Kinvey on Android 
-
-## Authors
-
-* [Morgan Bickle](mailto:morgan@kinvey.com)
-
-## Project information
-
-* Source: http://github.com/kinvey/android-quickstart
-* Web: http://www.kinvey.com
-* Docs: http://docs.kinvey.com
-* Twitter: http://twitter.com/kinvey
-
-# Resources
----
-  - [The Management Console](https://console.kinvey.com)
-  - [kinvey.com](http://www.kinvey.com/)
+1. fetches all of blob names from _blob collection
+2. makes a call to Kinvey via Resource.getUriForResource() for every blob listed
+3. samples the image downloaded and resizes to 512x512 if its too big
 
