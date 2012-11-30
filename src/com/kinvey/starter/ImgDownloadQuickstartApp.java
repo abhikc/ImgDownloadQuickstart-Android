@@ -14,8 +14,8 @@ public class ImgDownloadQuickstartApp extends Application {
     private KCSClient service;
 
 	// Enter your Kinvey app credentials
-    private static final String APP_KEY = "<your_app_key>";
-    private static final String APP_SECRET = "<your_app_secret>";
+    private static final String APP_KEY = your_app_key;
+    private static final String APP_SECRET = your_app_secret;
     
     
     @Override
